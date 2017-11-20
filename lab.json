@@ -404,21 +404,6 @@
       "system": []
     },
     {
-      "name": "Header",
-      "imports": [
-        "Fixed",
-        "Box",
-        "Flex",
-        "ButtonCircle",
-        "Logo"
-      ],
-      "jsx": "  <Flex\n    justify='space-between'\n    align='center'\n    bg={props.bg}\n    top\n    left\n    right\n    >\n    <Box {...props.logoWrapper}>\n      <Logo px={props.logoPx} src={props.src} />\n    </Box>\n    <Box {...props.btnWrapper}>\n      <ButtonCircle {...props.btn}>btn</ButtonCircle>\n    </Box>\n  </Flex>",
-      "examples": [
-        "<Header\n  bg='red'\n  text='hello'\n  z={100}\n  logoPx={[5]}\n  src='https://dummyimage.com/300x82/000/fff.png&text=UNDEF'\n  logoWrapper={\n    {\n      px: [1,1,1,2],\n      py: [1,1,1,1]\n    }\n  }\n  btnWrapper={\n    {\n      px: [1,1,1,2],\n      py: [1,1,1,1]\n    }\n  }\n  btn={\n    {\n      fontSize:[1],\n      color: 'white',\n      bg: 'green',\n      px: [5]\n    }\n  }\n>\n  hello\n</Header>"
-      ],
-      "system": []
-    },
-    {
       "name": "Logo",
       "type": "Img",
       "props": {},
@@ -427,25 +412,6 @@
       },
       "examples": [
         "<Logo src='https://dummyimage.com/300x82/000/fff.png&text=UNDEFINED' />"
-      ],
-      "system": []
-    },
-    {
-      "name": "Banner",
-      "type": "Div",
-      "props": {},
-      "style": {
-        "display": "flex",
-        "flexDirection": "column",
-        "alignItems": "center",
-        "justifyContent": "center",
-        "minHeight": "80vh",
-        "backgroundSize": "cover",
-        "backgroundPosition": "center",
-        "backgroundImage": "${props.src}"
-      },
-      "examples": [
-        "<Banner src='https://mrmrs.github.io/photos/u/007.jpg'>hello</Banner>"
       ],
       "system": []
     }
