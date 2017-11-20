@@ -1,0 +1,16 @@
+{
+  "name": "sicario_lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@compositor/mono": "^0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Eung Jin Lee <theundefinedist@gmail.com> (https://undefinedist.github.io/sicario/)",
+  "license": "ISC"
+}
