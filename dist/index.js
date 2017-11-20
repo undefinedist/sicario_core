@@ -211,30 +211,12 @@ Object.defineProperty(exports, 'Fixed', {
   }
 });
 
-var _Header = require('./Header');
-
-Object.defineProperty(exports, 'Header', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Header).default;
-  }
-});
-
 var _Logo = require('./Logo');
 
 Object.defineProperty(exports, 'Logo', {
   enumerable: true,
   get: function get() {
     return _interopRequireDefault(_Logo).default;
-  }
-});
-
-var _Banner = require('./Banner');
-
-Object.defineProperty(exports, 'Banner', {
-  enumerable: true,
-  get: function get() {
-    return _interopRequireDefault(_Banner).default;
   }
 });
 
