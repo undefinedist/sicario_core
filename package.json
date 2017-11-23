@@ -2,7 +2,7 @@
   "name": "sicario_lab",
   "lab": "lab.json",
   "main": "index.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "dependencies": {
     "@compositor/mono": "^0.0.3"
