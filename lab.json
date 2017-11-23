@@ -399,7 +399,7 @@
         "zIndex": "${props.z}"
       },
       "examples": [
-        "<Fixed bg='red'>Hello</Fixed>"
+        "<Fixed bg='blue'>Hello</Fixed>"
       ],
       "system": []
     },
