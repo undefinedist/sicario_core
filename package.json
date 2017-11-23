@@ -2,7 +2,7 @@
   "name": "sicario_core",
   "lab": "lab.json",
   "main": "index.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "dependencies": {
     "@compositor/mono": "^0.0.3"
@@ -15,7 +15,6 @@
     "start": "lab --pkg -wd dist"
   },
   "keywords": [],
-  "author":
-    "Eung Jin Lee <theundefinedist@gmail.com> (https://undefinedist.github.io/sicario/)",
+  "author": "Eung Jin Lee <theundefinedist@gmail.com> (https://undefinedist.github.io/sicario/)",
   "license": "ISC"
 }
